@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../../redux/store'; 
+import store from '../../redux/store';
 import Crypto from '../currencies/Crypto';
 
 it('test navbar render', () => {
