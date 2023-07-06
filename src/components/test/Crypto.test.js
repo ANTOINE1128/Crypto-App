@@ -9,6 +9,7 @@ it('test navbar render', () => {
     .create(
       <MemoryRouter>
         <Provider store={store}>
+
           <Crypto />
         </Provider>
       </MemoryRouter>,

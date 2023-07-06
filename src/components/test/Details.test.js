@@ -48,6 +48,7 @@ describe('Details component', () => {
     render(
       <Router>
         <Details />
+
       </Router>,
     );
 

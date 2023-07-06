@@ -12,6 +12,7 @@ const CryptoCurrencyList = ({ currencies }) => (
 
     </ul>
   </>
+
 );
 
 export default CryptoCurrencyList;
