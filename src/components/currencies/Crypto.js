@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { FaBitcoin } from 'react-icons/fa';
 import CryptoCurrencyList from './CryptoCurrencyList';
 
 const Crypto = () => {
@@ -12,12 +13,20 @@ const Crypto = () => {
   const filtered = currencies.filter((currency) => currency.symbol.toLowerCase().includes(lower));
 
   if (isLoading) {
-    return <div>Loading current data...</div>;
+    return <div>Loading...</div>;
   }
 
   return (
     <div>
-      <h1 className="title">CryptoCurrency Tracker</h1>
+
+      <h1 className="title">
+        {' '}
+        <FaBitcoin />
+
+        CryptoCurrency
+        <FaBitcoin />
+      </h1>
+
       <div className="search">
         <input
           type="text"
