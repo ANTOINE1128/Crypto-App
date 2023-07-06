@@ -5,9 +5,11 @@ import '../../styles/crypto.css';
 const CryptoCurrencyList = ({ currencies }) => (
   <>
     <ul className="currency-container">
+
       {currencies.map((currency) => (
         <CryptoCurrencyItem key={currency.id} currency={currency} />
       ))}
+
     </ul>
   </>
 );

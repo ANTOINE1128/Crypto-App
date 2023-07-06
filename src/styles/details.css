@@ -21,3 +21,25 @@
   justify-content: center;
   align-items: center;
 }
+
+.deets-container {
+  border: 1px solid red;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 30px 5px 5px 5px;
+}
+
+.deets {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+}
+
+.deets:nth-child(even) {
+  color: red;
+  background-color: black;
+}
