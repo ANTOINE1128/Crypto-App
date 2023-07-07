@@ -26,9 +26,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Countries Stats <a name="about-project"></a>
+# 📖 Cryptocurrency <a name="about-project"></a>
 
-**Countries Stats** is a website App displaying the crypto currencies and details about various coins each crypto currency is filtered by the API.
+**Cryptocurrency** is a website App displaying the cryptocurrencies and details about various coins each cryptocurrency is filtered by the API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
