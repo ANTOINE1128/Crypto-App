@@ -20,7 +20,7 @@ const Crypto = () => {
     <div>
 
       <h1 className="title">
-        {' '}
+
         <FaBitcoin />
 
         CryptoCurrency
