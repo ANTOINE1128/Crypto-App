@@ -63,6 +63,7 @@ const Details = () => {
             Total Supply:
             {' '}
             {formatNumber(currency.tsupply, 2)}
+
           </p>
           <p className="deets">
             1h %:
