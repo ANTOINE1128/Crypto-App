@@ -28,7 +28,7 @@
 
 # 📖 Cryptocurrency <a name="about-project"></a>
 
-**Cryptocurrency** is a website App displaying the cryptocurrencies and details about various coins each cryptocurrency is filtered by the API.
+**Crypto-App** is a website App displaying the cryptocurrencies and details about various coins each cryptocurrency is filtered by the API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,7 +66,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone https://github.com/ANTOINE1128/React-capstone-project---Metrics-webapp.git
+  git clone https://github.com/ANTOINE1128/Crypto-App
 ```
 
 ### Install
